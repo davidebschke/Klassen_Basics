@@ -7,7 +7,7 @@ public class Main {
 
         Student gustav = new Student("Gustav","Mustermann","C9AB",23);
 
-        System.out.println(gustav.toStringStudent());
+        System.out.println(gustav);
 
 
 

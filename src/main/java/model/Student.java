@@ -48,7 +48,8 @@ public class Student {
         this.firstName = firstName;
     }
 
-    public String toStringStudent() {
+    @Override
+    public String toString() {
         return      "Der Vorname ist: "+ firstName + "\n"
                 +   "Der Nachname ist: " + lastName + "\n"
                 +   "Der Schüler gehört zu der Klasse: " + course + "\n"
